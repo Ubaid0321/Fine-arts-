@@ -1,0 +1,362 @@
+/* css resey */
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+/* logo and navigation Br */
+#navbar {
+    display: flex;
+    /* justify-content: center ;
+    align-items: center; */
+    color: white;
+    /* border: 2px solid red; */
+    height: 100vh;
+    background-image: url(/img/bk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 2s;
+    background-color: black;
+
+    animation-name: animate;
+    animation-direction: alternate;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-play-state: running;
+
+}
+
+@keyframes animate {
+    0% {
+        background-image: url(/img/bk.jpg);
+    }
+
+    10% {
+        background-image: url(/img/wall\ 9.jpg);
+    }
+
+    20% {
+        background-image: url(/img/wall\ 8.jpg);
+    }
+
+    30% {
+        background-image: url(/img/wall\ 9.jpg);
+    }
+
+    40% {
+        background-image: url(/img/wall\ 1.jpg);
+    }
+
+    50% {
+        background-image: url(/img/wall\ 2.jpg);
+    }
+
+    60% {
+        background-image: url(/img/wall\ 3.jpg);
+    }
+
+    70% {
+        background-image: url(/img/wall\ 4.jpg);
+    }
+
+    85% {
+        background-image: url(/img/wall\ 5.jpg);
+    }
+
+    100% {
+        background-image: url(/img/wall\ 6.jpg);
+    }
+
+
+}
+
+/* logo */
+#logo {
+    /* border: 2px solid black; */
+
+
+}
+
+#logo img {
+    height: 83px;
+    margin: 22px 43px;
+
+    border: 2px solid grey;
+    border-radius: 13px;
+    opacity: 0.3;
+
+}
+
+/* navigation menu  */
+.box {
+    display: flex;
+    margin-left: 133px;
+    /* border: 2px solid red; */
+    position: sticky;
+    height: 15vh;
+    font-size: 26px;
+}
+
+.item {
+    /* border: 2px solid blue;  */
+
+    padding: 33px;
+    height: 2vh;
+}
+
+.item a {
+    color: rgb(197, 197, 197);
+    text-decoration: none;
+}
+
+/* BUTTON  */
+input {
+    padding: 13px;
+    padding-left: 8px;
+    padding-right: 0px;
+    margin: 33px;
+    margin-left: -10px;
+    border-radius: 13px;
+    background-color: rgb(221, 213, 213);
+    cursor: pointer;
+}
+
+input:hover {
+    background-color: rgb(233 245 237);
+}
+
+.item a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.hd {
+    margin-top: 233px;
+    margin-left: -1033px;
+    /* margin-right:833px; */
+    padding-top: 2px;
+    padding-left: 132px;
+    padding-bottom: 2px;
+    padding-right: 562px;
+    height: 36px;
+    background-color: rgb(179, 179, 179);
+
+}
+
+/* section 2 (Aside) truck art */
+.content {
+    display: flex;
+    background-color: black;
+}
+
+.box1 {
+    width: 63%;
+    height: 108vh;
+    /* border: 2px solid red;  */
+    background-color: rgb(233 245 237);
+    margin-left: 3px;
+    border-radius: 13px;
+    background-color: rgb(176, 210, 230);
+}
+
+.box1 h1 {
+    margin: 33px;
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+
+}
+
+#tk img {
+    height: 52vh;
+    width: 30vw;
+    margin-left: 0px;
+
+}
+
+#truck img {
+    width: 33vw;
+    height: 52vh;
+    margin-left: 0px;
+    /* border: 2px solid red; */
+
+}
+
+#truck {
+    margin-left: -50px;
+    margin-right: -50px;
+
+}
+
+/* sculpture section */
+
+
+.sculpture {
+    /* border: 2px solid red; */
+    height: 133vh;
+    margin-top: -5px;
+    background-color: black;
+
+}
+
+.art {
+    /* border: 2px solid royalblue;  */
+    margin-top: -450px;
+
+    background-color: blanchedalmond;
+    width: 60%;
+    height: 72vh;
+    margin-left: 3px;
+}
+
+/* pic 1 ,2 */
+.error1 {
+    height: 61vh;
+    margin-top: -20px;
+}
+
+.error {
+    height: 62vh;
+    margin-left: -4px;
+
+}
+
+
+/* pix3    */
+
+.did {
+    height: 63vh;
+    width: 23vw;
+    margin-left: -5px;
+}
+
+.goat {
+    height: 73vh;
+    width: 20vhvw;
+    margin-top: -2px;
+    margin-left: 733px;
+}
+
+.lk {
+    margin-top: -2px;
+    height: 71vh;
+    width: 40vw;
+    margin-left:5rem;
+
+}
+
+.architecture {
+    /* border: 2px solid orange; */
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.mosq {
+
+    /* border: 2px solid red; */
+    height: 50vh;
+    width: 33vw;
+    background: url(/img/arch2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.masjid {
+    /*border: 2px solid aqua; */
+    height: 50vh;
+    width: 33vw;
+    background: url(/img/arch1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.detail {
+    width: 33vw;
+    height: 100vh;
+    background-color: gainsboro;
+    margin-right: 1rem;
+    color: blue;
+    /* border: 2px solid green; */
+
+}
+
+.detail h2 {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.mosq1 {
+    margin-top: -288px;
+    /* border: 2px solid red; */
+    height: 50vh;
+    background: url(/img/arch3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.masjid1 {
+    margin-top: -288px;
+    /* border: 2px solid rgb(0, 47, 255); */
+    height: 50vh;
+    background: url(/img/arch.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* last footer area bottom  */
+footer {
+    /* background-color: lightcyan; */
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    margin-top: -4px;
+
+    text-align: center;
+    background-color: #2e2d2e;
+    color: #fff;
+    padding: 1em 2em;
+    font-size: .9em;
+}
+
+footer:hover {
+    background-color: orange;
+    color: black;
+}
+
+.page-footer {
+    display: grid;
+    /* border: 2px solid white; */
+}
+
+.footer-nav {
+    display: grid;
+    /* border: 2px solid white; */
+    grid-template-columns: repeat(6, 1fr);
+    font-size: 20px;
+    margin-top: 1rem;
+    list-style: none;
+
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-info {
+    /* border: 2px solid white; */
+    padding-top: 33px;
+    padding-bottom: 33px;
+
+}
